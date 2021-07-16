@@ -1,1 +1,22 @@
-site_name: My Docs
+site_name: Matrix Models via QC, DL, MC
+site_author: "@erinaldi"
+site_description: "Supplementary figures and tables to the arxiv publication 2107.XXXXX"
+nav:
+  - Home: index.md
+  - Quantum Computing: qc.md
+  - Deep Learning: dl.md
+  - Lattice Monte Carlo: 
+    - mc/mc.md
+    - Figures: mc/figures.md
+    - Tables: mc/tables.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - attr_list
