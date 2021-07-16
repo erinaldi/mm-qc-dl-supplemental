@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# Matrix Models using Quantum Computing, Deep Learning, and Lattice Monte Carlo
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This documentation website collects figures and tables supplementing the publication
+at [arxiv.org](https://arxiv.org).
 
-## Commands
+We group figures and tables by the three different computational approaches used in the paper:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+`quantum computation`
+:   Compute the eigenvalues and eigenstates of the regularized Hamiltonian
 
-## Project layout
+  1. exact diagonalization
+  2. hybrid quantum-classical eigensolvers
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+`deep learning`
+:   Compute the eingestates of the regularized Hamiltonian using variational monte carlo techniques to approximate the wavefunction
+
+`lattice monte carlo`
+:   Compute the path integral of the Lagrangian using Markov Chain Monte Carlo to extract observables related to the ground state.
+  
+## Quantum Computation
+
