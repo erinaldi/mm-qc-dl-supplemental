@@ -7,8 +7,8 @@ nav:
   - Deep Learning: dl.md
   - Lattice Monte Carlo: 
     - mc/mc.md
-    - Figures: mc/figures.md
-    - Tables: mc/tables.md
+    - Energy figures: mc/figures.md
+    - Energy tables: mc/tables.md
 theme:
   name: material
   features:

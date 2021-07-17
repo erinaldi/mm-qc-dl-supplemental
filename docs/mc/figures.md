@@ -1,4 +1,9 @@
-# Figures
+# Figures of the internal energy
+
+The energy $E$ of the ground state as a function of the Monte Carlo molecular dynamics time unit (`MDTU`).
+The side panels show the distribution. When the distribution of the `MDTU` is not uniform during the MCMC run it means that different intervals were used when saving to disk.
+
+The thermalization trajectories are not removed. The plot legend shows the number of integration steps $n_\tau$ used.
 
 ## Energy SU(2) $\lambda = 0.5$
 
@@ -130,3 +135,6 @@ Figures of the internal energy of the SU(2) group at $\lambda = 0.5$ for all the
 ![t03](figures/bmn2_su2_g05_l192_t03_energy-mdtu.svg){loading=lazy width=300}
 #### $T=0.4$
 ![t04](figures/bmn2_su2_g05_l192_t04_energy-mdtu.svg){loading=lazy width=300}
+
+## Energy SU(2) $\lambda = 1.0$
+
