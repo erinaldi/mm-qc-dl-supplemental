@@ -3,7 +3,10 @@ site_author: "@erinaldi"
 site_description: "Supplementary figures and tables to the arxiv publication 2107.XXXXX"
 nav:
   - Home: index.md
-  - Quantum Computing: qc.md
+  - Quantum Computing: 
+    - qc/qc.md
+    - Bosonic BMN figures: qc/figures_bos.md
+    - Bosonic BMN tables: qc/tables_bos.md
   - Deep Learning: dl.md
   - Lattice Monte Carlo: 
     - mc/mc.md

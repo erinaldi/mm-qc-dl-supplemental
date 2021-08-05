@@ -1,6 +1,7 @@
 # Lattice Monte Carlo
 
-Markov Chain Monte Carlo integration of the lattice path integral
+Markov Chain Monte Carlo integration of the lattice path integral for the bosonic BMN matrix model with different gauge groups and couplings.
+We study the energy observable $E$ as a function of the lattice size $n_t$ and the temperature $T$ towards the continuum limit.
 
 Gauge groups:
 
