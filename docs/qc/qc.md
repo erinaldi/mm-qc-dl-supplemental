@@ -1,6 +1,7 @@
 # Quantum Computing
 
-We used a truncated (regularized) Hamiltonian for the matrix quantum mechanics models which is constructed by considering a truncated Hilbert space.
+We use a truncated (regularized) Hamiltonian for the matrix quantum mechanics models. 
+This Hamiltonian is constructed by considering a truncated Hilbert space in the Fock basis.
 
 The truncated Hilbert space is constructed starting from the individual matrix degrees of freedom.
 
@@ -17,12 +18,19 @@ We consider two types of matrix quantum mechanics models:
 The calculation of the spectrum of the truncated Hamiltonian for the matrix quantum mechanics models is done using [`qutip`](https://www.qutip.org).
 
 The annihilation operators are created for the states in a truncated Hilbert space with a cutoff $\Lambda$ on the number of modes.
+We can study systems up to $\Lambda=14$ with this method.
 
-The codes for the bosonic matrix model and the minimal BMN model are available in [this repository](https://github.com/erinaldi/bmn2-qutip).
+The code for the bosonic matrix model and the minimal BMN model is available in [this repository](https://github.com/erinaldi/bmn2-qutip).
 
 ### QISKIT
 
-Software [`qiskit`](https://www.qiskit.org)
+We compute the ground state of the truncated Hamiltonian using a hybrid quantum-classical algorithm that is useful on current NISQ (Noisy Intermediate Scale Quantum) devices: the Variational Quantum Eigensolver (VQE).
+
+We use the IBM [`qiskit`](https://www.qiskit.org) library which allows users to directly access quantum hardware in the cloud.
+
+Due to the limited number of qubits in current quantum hardware, we can study the truncated Hamiltonian with cutoff $\Lambda$ up to 4.
+
+The code is available in [this repository](https://github.com/erinaldi/bmn2-qiskit).
 
 ## Results
 
