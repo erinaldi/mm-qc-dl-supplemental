@@ -7,6 +7,8 @@ nav:
     - qc/qc.md
     - Bosonic BMN figures: qc/figures_bos.md
     - Bosonic BMN tables: qc/tables_bos.md
+    - Minimal BMN figures: qc/figures_mini.md
+    - Minimal BMN tables: qc/tables_mini.md
   - Deep Learning: dl/dl.md
   - Lattice Monte Carlo: 
     - mc/mc.md
