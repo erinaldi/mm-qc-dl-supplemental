@@ -1,13 +1,15 @@
 # Figures of the internal energy
 
 The energy $E$ of the ground state as a function of the Monte Carlo molecular dynamics time unit (`MDTU`).
-The side panels show the distribution. When the distribution of the `MDTU` is not uniform during the MCMC run it means that different intervals were used when saving to disk.
+The side panels show the distribution.
+When the distribution of the `MDTU` is not uniform during the MCMC run it means that different intervals were used when saving to disk.
 
-The thermalization trajectories are not removed. The plot legend shows the number of integration steps $n_\tau$ used.
+The thermalization trajectories are not removed.
+The plot legend shows the number of integration steps $n_\tau$ used in the Hybrid Monte Carlo algorithm.
 
-## Energy SU(2) $\lambda = 0.5$
-
-Figures of the internal energy of the SU(2) group at $\lambda = 0.5$ for all the lattice sizes $n_t$ and temperatures $T$.
+Below we collect all figures of the energy for all the gauge groups, gauge couplings, lattice sizes $n_t$, and temperatures $T$.
+# SU(2) 
+## $\lambda = 0.5$
 ### $n_t = 16$
 #### $T=0.05$
 ![t005](figures/bmn2_su2_g05_l16_t005_energy-mdtu.svg){loading=lazy width=300}
