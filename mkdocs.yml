@@ -23,6 +23,7 @@ theme:
   palette:
     - primary: lime
     - accent: indigo
+  logo: assets/logo.png
 markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
