@@ -1,6 +1,6 @@
 site_name: Matrix Models via QC, DL, and MC
 site_author: "@erinaldi"
-site_description: "Supplementary figures and tables to the arxiv publication 2108.XXXXX"
+site_description: "Supplementary figures and tables to the arxiv publication https://arxiv.org/abs/2108.0294"
 nav:
   - Home: index.md
   - Quantum Computing: 
