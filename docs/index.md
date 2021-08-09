@@ -1,7 +1,6 @@
 # Matrix Models using Quantum Computing, Deep Learning, and Lattice Monte Carlo
 
-This documentation website collects figures and tables supplementing the publication
-on [arxiv.org](https://arxiv.org).
+This documentation website collects figures and tables supplementing the publication at [https://arxiv.org/abs/2108.02942](https://arxiv.org/abs/2108.02942).
 
 We group figures and tables by the three different computational approaches used in the paper: *quantum computing*, *deep learning*, and *lattice Monte Carlo*.
 ## Quantum Computation
